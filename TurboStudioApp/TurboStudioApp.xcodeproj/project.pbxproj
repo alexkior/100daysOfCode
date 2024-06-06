@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410C302D2C121EA4004674CB /* TurboStudioAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C302C2C121EA4004674CB /* TurboStudioAppApp.swift */; };
+		410C302F2C121EA4004674CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C302E2C121EA4004674CB /* ContentView.swift */; };
+		410C30312C121EA6004674CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410C30302C121EA6004674CB /* Assets.xcassets */; };
+		410C30342C121EA6004674CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410C30332C121EA6004674CB /* Preview Assets.xcassets */; };
+		410C303E2C121EA6004674CB /* TurboStudioAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C303D2C121EA6004674CB /* TurboStudioAppTests.swift */; };
+		410C30482C121EA6004674CB /* TurboStudioAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C30472C121EA6004674CB /* TurboStudioAppUITests.swift */; };
+		410C304A2C121EA6004674CB /* TurboStudioAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C30492C121EA6004674CB /* TurboStudioAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		410C303A2C121EA6004674CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410C30212C121EA3004674CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410C30282C121EA4004674CB;
+			remoteInfo = TurboStudioApp;
+		};
+		410C30442C121EA6004674CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410C30212C121EA3004674CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410C30282C121EA4004674CB;
+			remoteInfo = TurboStudioApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		410C30292C121EA4004674CB /* TurboStudioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurboStudioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		410C302C2C121EA4004674CB /* TurboStudioAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurboStudioAppApp.swift; sourceTree = "<group>"; };
+		410C302E2C121EA4004674CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		410C30302C121EA6004674CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		410C30332C121EA6004674CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		410C30392C121EA6004674CB /* TurboStudioAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurboStudioAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		410C303D2C121EA6004674CB /* TurboStudioAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurboStudioAppTests.swift; sourceTree = "<group>"; };
+		410C30432C121EA6004674CB /* TurboStudioAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurboStudioAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		410C30472C121EA6004674CB /* TurboStudioAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurboStudioAppUITests.swift; sourceTree = "<group>"; };
+		410C30492C121EA6004674CB /* TurboStudioAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurboStudioAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		410C30262C121EA4004674CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410C30362C121EA6004674CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410C30402C121EA6004674CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		410C30202C121EA3004674CB = {
+			isa = PBXGroup;
+			children = (
+				410C302B2C121EA4004674CB /* TurboStudioApp */,
+				410C303C2C121EA6004674CB /* TurboStudioAppTests */,
+				410C30462C121EA6004674CB /* TurboStudioAppUITests */,
+				410C302A2C121EA4004674CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		410C302A2C121EA4004674CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				410C30292C121EA4004674CB /* TurboStudioApp.app */,
+				410C30392C121EA6004674CB /* TurboStudioAppTests.xctest */,
+				410C30432C121EA6004674CB /* TurboStudioAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		410C302B2C121EA4004674CB /* TurboStudioApp */ = {
+			isa = PBXGroup;
+			children = (
+				410C302C2C121EA4004674CB /* TurboStudioAppApp.swift */,
+				410C302E2C121EA4004674CB /* ContentView.swift */,
+				410C30302C121EA6004674CB /* Assets.xcassets */,
+				410C30322C121EA6004674CB /* Preview Content */,
+			);
+			path = TurboStudioApp;
+			sourceTree = "<group>";
+		};
+		410C30322C121EA6004674CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				410C30332C121EA6004674CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		410C303C2C121EA6004674CB /* TurboStudioAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				410C303D2C121EA6004674CB /* TurboStudioAppTests.swift */,
+			);
+			path = TurboStudioAppTests;
+			sourceTree = "<group>";
+		};
+		410C30462C121EA6004674CB /* TurboStudioAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				410C30472C121EA6004674CB /* TurboStudioAppUITests.swift */,
+				410C30492C121EA6004674CB /* TurboStudioAppUITestsLaunchTests.swift */,
+			);
+			path = TurboStudioAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		410C30282C121EA4004674CB /* TurboStudioApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410C304D2C121EA6004674CB /* Build configuration list for PBXNativeTarget "TurboStudioApp" */;
+			buildPhases = (
+				410C30252C121EA4004674CB /* Sources */,
+				410C30262C121EA4004674CB /* Frameworks */,
+				410C30272C121EA4004674CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurboStudioApp;
+			productName = TurboStudioApp;
+			productReference = 410C30292C121EA4004674CB /* TurboStudioApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		410C30382C121EA6004674CB /* TurboStudioAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410C30502C121EA6004674CB /* Build configuration list for PBXNativeTarget "TurboStudioAppTests" */;
+			buildPhases = (
+				410C30352C121EA6004674CB /* Sources */,
+				410C30362C121EA6004674CB /* Frameworks */,
+				410C30372C121EA6004674CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410C303B2C121EA6004674CB /* PBXTargetDependency */,
+			);
+			name = TurboStudioAppTests;
+			productName = TurboStudioAppTests;
+			productReference = 410C30392C121EA6004674CB /* TurboStudioAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		410C30422C121EA6004674CB /* TurboStudioAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410C30532C121EA6004674CB /* Build configuration list for PBXNativeTarget "TurboStudioAppUITests" */;
+			buildPhases = (
+				410C303F2C121EA6004674CB /* Sources */,
+				410C30402C121EA6004674CB /* Frameworks */,
+				410C30412C121EA6004674CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410C30452C121EA6004674CB /* PBXTargetDependency */,
+			);
+			name = TurboStudioAppUITests;
+			productName = TurboStudioAppUITests;
+			productReference = 410C30432C121EA6004674CB /* TurboStudioAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		410C30212C121EA3004674CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					410C30282C121EA4004674CB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					410C30382C121EA6004674CB = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 410C30282C121EA4004674CB;
+					};
+					410C30422C121EA6004674CB = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 410C30282C121EA4004674CB;
+					};
+				};
+			};
+			buildConfigurationList = 410C30242C121EA3004674CB /* Build configuration list for PBXProject "TurboStudioApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 410C30202C121EA3004674CB;
+			productRefGroup = 410C302A2C121EA4004674CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				410C30282C121EA4004674CB /* TurboStudioApp */,
+				410C30382C121EA6004674CB /* TurboStudioAppTests */,
+				410C30422C121EA6004674CB /* TurboStudioAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		410C30272C121EA4004674CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410C30342C121EA6004674CB /* Preview Assets.xcassets in Resources */,
+				410C30312C121EA6004674CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410C30372C121EA6004674CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410C30412C121EA6004674CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		410C30252C121EA4004674CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410C302F2C121EA4004674CB /* ContentView.swift in Sources */,
+				410C302D2C121EA4004674CB /* TurboStudioAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410C30352C121EA6004674CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410C303E2C121EA6004674CB /* TurboStudioAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410C303F2C121EA6004674CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410C30482C121EA6004674CB /* TurboStudioAppUITests.swift in Sources */,
+				410C304A2C121EA6004674CB /* TurboStudioAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		410C303B2C121EA6004674CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410C30282C121EA4004674CB /* TurboStudioApp */;
+			targetProxy = 410C303A2C121EA6004674CB /* PBXContainerItemProxy */;
+		};
+		410C30452C121EA6004674CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410C30282C121EA4004674CB /* TurboStudioApp */;
+			targetProxy = 410C30442C121EA6004674CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		410C304B2C121EA6004674CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		410C304C2C121EA6004674CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		410C304E2C121EA6004674CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TurboStudioApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZLTJCR8URJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NBOP.TurboStudioApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		410C304F2C121EA6004674CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TurboStudioApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZLTJCR8URJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NBOP.TurboStudioApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		410C30512C121EA6004674CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLTJCR8URJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NBOP.TurboStudioAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurboStudioApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TurboStudioApp";
+			};
+			name = Debug;
+		};
+		410C30522C121EA6004674CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLTJCR8URJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NBOP.TurboStudioAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurboStudioApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TurboStudioApp";
+			};
+			name = Release;
+		};
+		410C30542C121EA6004674CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLTJCR8URJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NBOP.TurboStudioAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TurboStudioApp;
+			};
+			name = Debug;
+		};
+		410C30552C121EA6004674CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLTJCR8URJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NBOP.TurboStudioAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TurboStudioApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		410C30242C121EA3004674CB /* Build configuration list for PBXProject "TurboStudioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410C304B2C121EA6004674CB /* Debug */,
+				410C304C2C121EA6004674CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410C304D2C121EA6004674CB /* Build configuration list for PBXNativeTarget "TurboStudioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410C304E2C121EA6004674CB /* Debug */,
+				410C304F2C121EA6004674CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410C30502C121EA6004674CB /* Build configuration list for PBXNativeTarget "TurboStudioAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410C30512C121EA6004674CB /* Debug */,
+				410C30522C121EA6004674CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410C30532C121EA6004674CB /* Build configuration list for PBXNativeTarget "TurboStudioAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410C30542C121EA6004674CB /* Debug */,
+				410C30552C121EA6004674CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 410C30212C121EA3004674CB /* Project object */;
+}
