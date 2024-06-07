@@ -14,6 +14,7 @@
 		410C303E2C121EA6004674CB /* TurboStudioAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C303D2C121EA6004674CB /* TurboStudioAppTests.swift */; };
 		410C30482C121EA6004674CB /* TurboStudioAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C30472C121EA6004674CB /* TurboStudioAppUITests.swift */; };
 		410C304A2C121EA6004674CB /* TurboStudioAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C30492C121EA6004674CB /* TurboStudioAppUITestsLaunchTests.swift */; };
+		41B097002C12CAC100B6B48A /* Gruvilicious.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41B096FF2C12CAC100B6B48A /* Gruvilicious.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		410C30432C121EA6004674CB /* TurboStudioAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurboStudioAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		410C30472C121EA6004674CB /* TurboStudioAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurboStudioAppUITests.swift; sourceTree = "<group>"; };
 		410C30492C121EA6004674CB /* TurboStudioAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurboStudioAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41B096FE2C12C9B200B6B48A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		41B096FF2C12CAC100B6B48A /* Gruvilicious.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gruvilicious.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 		410C302B2C121EA4004674CB /* TurboStudioApp */ = {
 			isa = PBXGroup;
 			children = (
+				41B096FE2C12C9B200B6B48A /* Info.plist */,
+				41B096F82C12C70100B6B48A /* Fonts */,
 				410C302C2C121EA4004674CB /* TurboStudioAppApp.swift */,
 				410C302E2C121EA4004674CB /* ContentView.swift */,
 				410C30302C121EA6004674CB /* Assets.xcassets */,
@@ -125,6 +130,14 @@
 				410C30492C121EA6004674CB /* TurboStudioAppUITestsLaunchTests.swift */,
 			);
 			path = TurboStudioAppUITests;
+			sourceTree = "<group>";
+		};
+		41B096F82C12C70100B6B48A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				41B096FF2C12CAC100B6B48A /* Gruvilicious.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +246,7 @@
 			files = (
 				410C30342C121EA6004674CB /* Preview Assets.xcassets in Resources */,
 				410C30312C121EA6004674CB /* Assets.xcassets in Resources */,
+				41B097002C12CAC100B6B48A /* Gruvilicious.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +439,7 @@
 				DEVELOPMENT_TEAM = ZLTJCR8URJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TurboStudioApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +469,7 @@
 				DEVELOPMENT_TEAM = ZLTJCR8URJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TurboStudioApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
